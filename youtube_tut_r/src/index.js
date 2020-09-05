@@ -1,0 +1,9 @@
+import React from 'react';
+import Reactdom from "react-dom";
+import "bootstrap/dist/css/bootstrap.css";
+import App from "./App";
+
+// const element = <h1>Hello World!</h1>;
+
+Reactdom.render(<App />, document.getElementById("root"));
+
